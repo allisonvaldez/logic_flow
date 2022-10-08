@@ -79,3 +79,18 @@ console.log("4. No it is an empty string, which is a falsy value.");
 console.log("5. Yes the value of thirdVariable is a truthy value since it was not declared with a 0 value. All numbers are of a truthy value unless it is declared with a 0 the only falsy number for datatypes of numbers.");
 
 console.log("Part 3");
+
+function getRandomNumber() {
+    return Math.random();
+}
+
+let randomNum = getRandomNumber();
+
+if (randomNum > 0.5) {
+    console.log("1. Over 0.5");
+}
+else {
+    console.log("1. Under 0.5");
+}
+
+console.log("2. A falsy value evaluates to false. All of the falsy values in Javascript are: false, null, undefined, 0, \"\" (an empty string), and NaN");
