@@ -1,3 +1,5 @@
+console.log("Part 1");
+
 console.log(`1. 2 == '2': ${2 == '2'}`);
 /* 
 Returns true as JS will convert the variables to the same type then compare their values--which is true
@@ -32,3 +34,4 @@ console.log(`7. true || false: ${true || false }`);
 /* 
 Returns true since we received a true value on the left hand side (the right hand side needs not to be evaluated). The whole expression will evaluate to true (since one of the expressions are true).
  */
+
