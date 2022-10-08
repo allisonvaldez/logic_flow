@@ -35,3 +35,12 @@ console.log(`7. true || false: ${true || false }`);
 Returns true since we received a true value on the left hand side (the right hand side needs not to be evaluated). The whole expression will evaluate to true (since one of the expressions are true).
  */
 
+console.log("Part 2");
+
+
+
+
+
+
+
+console.log("Part 3");
